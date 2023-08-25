@@ -35,7 +35,7 @@ CREATE TABLE chofer (
     dni INT UNIQUE NOT NULL,
     first_name VARCHAR(15),
     last_name VARCHAR(15),
-    birth_date DATE,
+    birth_date DATETIME,
     id_vencimiento_driver INT,
     PRIMARY KEY (id_driver, id_vencimiento_driver),
         CONSTRAINT FK_ID_VENCIMIENTO_CHOFER
@@ -45,10 +45,11 @@ CREATE TABLE chofer (
 
 CREATE TABLE empresa (
     id_company INT PRIMARY KEY,
-    cuit_compay INT UNIQUE NOT NULL,
+    cuit_company VARCHAR(12) UNIQUE NOT NULL,
     name_company VARCHAR(40),
     date_company DATE
 );
+
 
 CREATE TABLE pago (
     id_pay INT,
@@ -98,7 +99,7 @@ CREATE TABLE producto (
 CREATE TABLE empresa_destino (
     id_company_d INT,
     name_company_d VARCHAR(50),
-    cuit_company_d INT UNIQUE NOT NULL,
+    cuit_company_d VARCHAR(12) UNIQUE NOT NULL,
     date_company_d DATE NOT NULL,
     address_company_d VARCHAR(120) NOT NULL,
     id_product INT,
