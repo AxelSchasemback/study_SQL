@@ -1,0 +1,10 @@
+insert into vehiculo (id_truck, Patent, name_truck, tara, load_max, id_venc_vehiculo) values (1, 'DEF456', 'Mercedes', 9811, 21732, 1);
+insert into vehiculo (id_truck, Patent, name_truck, tara, load_max, id_venc_vehiculo) values (2, 'ABC123', 'Ford', 6737, 23742, 2);
+insert into vehiculo (id_truck, Patent, name_truck, tara, load_max, id_venc_vehiculo) values (3, 'XYZ789', 'Mercedes', 8951, 13311, 3);
+insert into vehiculo (id_truck, Patent, name_truck, tara, load_max, id_venc_vehiculo) values (4, 'KSZ712', 'Mercedes', 8303, 15254, 4);
+insert into vehiculo (id_truck, Patent, name_truck, tara, load_max, id_venc_vehiculo) values (5, 'OYZ755', 'Ford', 8379, 14568, 5);
+insert into vehiculo (id_truck, Patent, name_truck, tara, load_max, id_venc_vehiculo) values (6, 'jYR724', 'Ford', 8621, 21346, 6);
+insert into vehiculo (id_truck, Patent, name_truck, tara, load_max, id_venc_vehiculo) values (7, 'TYT778', 'Mercedes', 7765, 16827, 7);
+insert into vehiculo (id_truck, Patent, name_truck, tara, load_max, id_venc_vehiculo) values (8, 'AJZ786', 'Ford', 9386, 14408, 8);
+insert into vehiculo (id_truck, Patent, name_truck, tara, load_max, id_venc_vehiculo) values (9, 'GKZ767', 'Ford', 8503, 21906, 9);
+insert into vehiculo (id_truck, Patent, name_truck, tara, load_max, id_venc_vehiculo) values (10, 'DAT486', 'Ford', 9832, 17193, 10);
